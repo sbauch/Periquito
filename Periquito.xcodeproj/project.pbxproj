@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		326FFF4F1FD7493F00C1B3D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326FFF4E1FD7493F00C1B3D6 /* AppDelegate.swift */; };
+		326FFF511FD7493F00C1B3D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326FFF501FD7493F00C1B3D6 /* ViewController.swift */; };
+		326FFF541FD7493F00C1B3D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 326FFF521FD7493F00C1B3D6 /* Main.storyboard */; };
+		326FFF571FD7493F00C1B3D6 /* Periquito.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 326FFF551FD7493F00C1B3D6 /* Periquito.xcdatamodeld */; };
+		326FFF591FD7493F00C1B3D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 326FFF581FD7493F00C1B3D6 /* Assets.xcassets */; };
+		326FFF5C1FD7493F00C1B3D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 326FFF5A1FD7493F00C1B3D6 /* LaunchScreen.storyboard */; };
+		326FFF671FD7493F00C1B3D6 /* PeriquitoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326FFF661FD7493F00C1B3D6 /* PeriquitoTests.swift */; };
+		326FFF721FD7493F00C1B3D6 /* PeriquitoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326FFF711FD7493F00C1B3D6 /* PeriquitoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		326FFF631FD7493F00C1B3D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 326FFF431FD7493F00C1B3D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 326FFF4A1FD7493F00C1B3D6;
+			remoteInfo = Periquito;
+		};
+		326FFF6E1FD7493F00C1B3D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 326FFF431FD7493F00C1B3D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 326FFF4A1FD7493F00C1B3D6;
+			remoteInfo = Periquito;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		326FFF4B1FD7493F00C1B3D6 /* Periquito.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Periquito.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		326FFF4E1FD7493F00C1B3D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		326FFF501FD7493F00C1B3D6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		326FFF531FD7493F00C1B3D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		326FFF561FD7493F00C1B3D6 /* Periquito.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Periquito.xcdatamodel; sourceTree = "<group>"; };
+		326FFF581FD7493F00C1B3D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		326FFF5B1FD7493F00C1B3D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		326FFF5D1FD7493F00C1B3D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		326FFF621FD7493F00C1B3D6 /* PeriquitoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeriquitoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		326FFF661FD7493F00C1B3D6 /* PeriquitoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriquitoTests.swift; sourceTree = "<group>"; };
+		326FFF681FD7493F00C1B3D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		326FFF6D1FD7493F00C1B3D6 /* PeriquitoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeriquitoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		326FFF711FD7493F00C1B3D6 /* PeriquitoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriquitoUITests.swift; sourceTree = "<group>"; };
+		326FFF731FD7493F00C1B3D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		326FFF481FD7493F00C1B3D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		326FFF5F1FD7493F00C1B3D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		326FFF6A1FD7493F00C1B3D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		326FFF421FD7493F00C1B3D6 = {
+			isa = PBXGroup;
+			children = (
+				326FFF4D1FD7493F00C1B3D6 /* Periquito */,
+				326FFF651FD7493F00C1B3D6 /* PeriquitoTests */,
+				326FFF701FD7493F00C1B3D6 /* PeriquitoUITests */,
+				326FFF4C1FD7493F00C1B3D6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		326FFF4C1FD7493F00C1B3D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				326FFF4B1FD7493F00C1B3D6 /* Periquito.app */,
+				326FFF621FD7493F00C1B3D6 /* PeriquitoTests.xctest */,
+				326FFF6D1FD7493F00C1B3D6 /* PeriquitoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		326FFF4D1FD7493F00C1B3D6 /* Periquito */ = {
+			isa = PBXGroup;
+			children = (
+				326FFF4E1FD7493F00C1B3D6 /* AppDelegate.swift */,
+				326FFF501FD7493F00C1B3D6 /* ViewController.swift */,
+				326FFF521FD7493F00C1B3D6 /* Main.storyboard */,
+				326FFF581FD7493F00C1B3D6 /* Assets.xcassets */,
+				326FFF5A1FD7493F00C1B3D6 /* LaunchScreen.storyboard */,
+				326FFF5D1FD7493F00C1B3D6 /* Info.plist */,
+				326FFF551FD7493F00C1B3D6 /* Periquito.xcdatamodeld */,
+			);
+			path = Periquito;
+			sourceTree = "<group>";
+		};
+		326FFF651FD7493F00C1B3D6 /* PeriquitoTests */ = {
+			isa = PBXGroup;
+			children = (
+				326FFF661FD7493F00C1B3D6 /* PeriquitoTests.swift */,
+				326FFF681FD7493F00C1B3D6 /* Info.plist */,
+			);
+			path = PeriquitoTests;
+			sourceTree = "<group>";
+		};
+		326FFF701FD7493F00C1B3D6 /* PeriquitoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				326FFF711FD7493F00C1B3D6 /* PeriquitoUITests.swift */,
+				326FFF731FD7493F00C1B3D6 /* Info.plist */,
+			);
+			path = PeriquitoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		326FFF4A1FD7493F00C1B3D6 /* Periquito */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 326FFF761FD7493F00C1B3D6 /* Build configuration list for PBXNativeTarget "Periquito" */;
+			buildPhases = (
+				326FFF471FD7493F00C1B3D6 /* Sources */,
+				326FFF481FD7493F00C1B3D6 /* Frameworks */,
+				326FFF491FD7493F00C1B3D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Periquito;
+			productName = Periquito;
+			productReference = 326FFF4B1FD7493F00C1B3D6 /* Periquito.app */;
+			productType = "com.apple.product-type.application";
+		};
+		326FFF611FD7493F00C1B3D6 /* PeriquitoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 326FFF791FD7493F00C1B3D6 /* Build configuration list for PBXNativeTarget "PeriquitoTests" */;
+			buildPhases = (
+				326FFF5E1FD7493F00C1B3D6 /* Sources */,
+				326FFF5F1FD7493F00C1B3D6 /* Frameworks */,
+				326FFF601FD7493F00C1B3D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				326FFF641FD7493F00C1B3D6 /* PBXTargetDependency */,
+			);
+			name = PeriquitoTests;
+			productName = PeriquitoTests;
+			productReference = 326FFF621FD7493F00C1B3D6 /* PeriquitoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		326FFF6C1FD7493F00C1B3D6 /* PeriquitoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 326FFF7C1FD7493F00C1B3D6 /* Build configuration list for PBXNativeTarget "PeriquitoUITests" */;
+			buildPhases = (
+				326FFF691FD7493F00C1B3D6 /* Sources */,
+				326FFF6A1FD7493F00C1B3D6 /* Frameworks */,
+				326FFF6B1FD7493F00C1B3D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				326FFF6F1FD7493F00C1B3D6 /* PBXTargetDependency */,
+			);
+			name = PeriquitoUITests;
+			productName = PeriquitoUITests;
+			productReference = 326FFF6D1FD7493F00C1B3D6 /* PeriquitoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		326FFF431FD7493F00C1B3D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Sam Bauch";
+				TargetAttributes = {
+					326FFF4A1FD7493F00C1B3D6 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					326FFF611FD7493F00C1B3D6 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 326FFF4A1FD7493F00C1B3D6;
+					};
+					326FFF6C1FD7493F00C1B3D6 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 326FFF4A1FD7493F00C1B3D6;
+					};
+				};
+			};
+			buildConfigurationList = 326FFF461FD7493F00C1B3D6 /* Build configuration list for PBXProject "Periquito" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 326FFF421FD7493F00C1B3D6;
+			productRefGroup = 326FFF4C1FD7493F00C1B3D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				326FFF4A1FD7493F00C1B3D6 /* Periquito */,
+				326FFF611FD7493F00C1B3D6 /* PeriquitoTests */,
+				326FFF6C1FD7493F00C1B3D6 /* PeriquitoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		326FFF491FD7493F00C1B3D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				326FFF5C1FD7493F00C1B3D6 /* LaunchScreen.storyboard in Resources */,
+				326FFF591FD7493F00C1B3D6 /* Assets.xcassets in Resources */,
+				326FFF541FD7493F00C1B3D6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		326FFF601FD7493F00C1B3D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		326FFF6B1FD7493F00C1B3D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		326FFF471FD7493F00C1B3D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				326FFF571FD7493F00C1B3D6 /* Periquito.xcdatamodeld in Sources */,
+				326FFF511FD7493F00C1B3D6 /* ViewController.swift in Sources */,
+				326FFF4F1FD7493F00C1B3D6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		326FFF5E1FD7493F00C1B3D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				326FFF671FD7493F00C1B3D6 /* PeriquitoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		326FFF691FD7493F00C1B3D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				326FFF721FD7493F00C1B3D6 /* PeriquitoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		326FFF641FD7493F00C1B3D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 326FFF4A1FD7493F00C1B3D6 /* Periquito */;
+			targetProxy = 326FFF631FD7493F00C1B3D6 /* PBXContainerItemProxy */;
+		};
+		326FFF6F1FD7493F00C1B3D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 326FFF4A1FD7493F00C1B3D6 /* Periquito */;
+			targetProxy = 326FFF6E1FD7493F00C1B3D6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		326FFF521FD7493F00C1B3D6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				326FFF531FD7493F00C1B3D6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		326FFF5A1FD7493F00C1B3D6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				326FFF5B1FD7493F00C1B3D6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		326FFF741FD7493F00C1B3D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		326FFF751FD7493F00C1B3D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		326FFF771FD7493F00C1B3D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VW52EE7G45;
+				INFOPLIST_FILE = Periquito/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sambauch.Periquito;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		326FFF781FD7493F00C1B3D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VW52EE7G45;
+				INFOPLIST_FILE = Periquito/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sambauch.Periquito;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		326FFF7A1FD7493F00C1B3D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VW52EE7G45;
+				INFOPLIST_FILE = PeriquitoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sambauch.PeriquitoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Periquito.app/Periquito";
+			};
+			name = Debug;
+		};
+		326FFF7B1FD7493F00C1B3D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VW52EE7G45;
+				INFOPLIST_FILE = PeriquitoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sambauch.PeriquitoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Periquito.app/Periquito";
+			};
+			name = Release;
+		};
+		326FFF7D1FD7493F00C1B3D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VW52EE7G45;
+				INFOPLIST_FILE = PeriquitoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sambauch.PeriquitoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Periquito;
+			};
+			name = Debug;
+		};
+		326FFF7E1FD7493F00C1B3D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VW52EE7G45;
+				INFOPLIST_FILE = PeriquitoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sambauch.PeriquitoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Periquito;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		326FFF461FD7493F00C1B3D6 /* Build configuration list for PBXProject "Periquito" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				326FFF741FD7493F00C1B3D6 /* Debug */,
+				326FFF751FD7493F00C1B3D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		326FFF761FD7493F00C1B3D6 /* Build configuration list for PBXNativeTarget "Periquito" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				326FFF771FD7493F00C1B3D6 /* Debug */,
+				326FFF781FD7493F00C1B3D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		326FFF791FD7493F00C1B3D6 /* Build configuration list for PBXNativeTarget "PeriquitoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				326FFF7A1FD7493F00C1B3D6 /* Debug */,
+				326FFF7B1FD7493F00C1B3D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		326FFF7C1FD7493F00C1B3D6 /* Build configuration list for PBXNativeTarget "PeriquitoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				326FFF7D1FD7493F00C1B3D6 /* Debug */,
+				326FFF7E1FD7493F00C1B3D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		326FFF551FD7493F00C1B3D6 /* Periquito.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				326FFF561FD7493F00C1B3D6 /* Periquito.xcdatamodel */,
+			);
+			currentVersion = 326FFF561FD7493F00C1B3D6 /* Periquito.xcdatamodel */;
+			path = Periquito.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 326FFF431FD7493F00C1B3D6 /* Project object */;
+}
