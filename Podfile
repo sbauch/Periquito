@@ -13,6 +13,16 @@ target 'Periquito' do
   pod 'Fabric'
   pod 'Crashlytics'
   
+  plugin 'cocoapods-keys', {
+    :project => "Periquito",
+    :keys => [
+      "TwitterConsumerKey",
+      "TwitterConsumerSecret",
+      "InstagramClientId",
+      "InstagramRedirectUrl"
+  ]}
+
+  
   target 'PeriquitoTests' do
     inherit! :search_paths
     # Pods for testing
