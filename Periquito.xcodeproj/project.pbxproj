@@ -7,17 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		326FFF4F1FD7493F00C1B3D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326FFF4E1FD7493F00C1B3D6 /* AppDelegate.swift */; };
-		326FFF511FD7493F00C1B3D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326FFF501FD7493F00C1B3D6 /* ViewController.swift */; };
-		326FFF541FD7493F00C1B3D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 326FFF521FD7493F00C1B3D6 /* Main.storyboard */; };
-		326FFF571FD7493F00C1B3D6 /* Periquito.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 326FFF551FD7493F00C1B3D6 /* Periquito.xcdatamodeld */; };
-		326FFF591FD7493F00C1B3D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 326FFF581FD7493F00C1B3D6 /* Assets.xcassets */; };
-		326FFF5C1FD7493F00C1B3D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 326FFF5A1FD7493F00C1B3D6 /* LaunchScreen.storyboard */; };
+		0FA69CC1C905571E09D4A026 /* Pods_PeriquitoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 039DEF0323C3BBC4E1264D0A /* Pods_PeriquitoTests.framework */; };
+		3236EB631FD74A890084CBF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3236EB621FD74A890084CBF1 /* Main.storyboard */; };
+		3236EB651FD74A910084CBF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3236EB641FD74A910084CBF1 /* LaunchScreen.storyboard */; };
+		324C80161FD74C1100B9A7AF /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 324C80151FD74C1100B9A7AF /* Info.plist */; };
+		324C801E1FD74F3300B9A7AF /* PeriquitoSnapshots.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324C801D1FD74F3300B9A7AF /* PeriquitoSnapshots.swift */; };
+		324C80261FD74F4D00B9A7AF /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324C80251FD74F4D00B9A7AF /* SnapshotHelper.swift */; };
+		325765481FDF244A00C9ADEF /* TwitterLoginViewContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325765471FDF244A00C9ADEF /* TwitterLoginViewContoller.swift */; };
 		326FFF671FD7493F00C1B3D6 /* PeriquitoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326FFF661FD7493F00C1B3D6 /* PeriquitoTests.swift */; };
 		326FFF721FD7493F00C1B3D6 /* PeriquitoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326FFF711FD7493F00C1B3D6 /* PeriquitoUITests.swift */; };
+		326FFF8D1FD7495C00C1B3D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326FFF801FD7495B00C1B3D6 /* AppDelegate.swift */; };
+		326FFF8E1FD7495C00C1B3D6 /* InstagramAvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326FFF821FD7495B00C1B3D6 /* InstagramAvatarView.swift */; };
+		326FFF8F1FD7495C00C1B3D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 326FFF831FD7495B00C1B3D6 /* Assets.xcassets */; };
+		326FFF901FD7495C00C1B3D6 /* InstagramCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326FFF841FD7495B00C1B3D6 /* InstagramCollectionViewCell.swift */; };
+		326FFF931FD7495C00C1B3D6 /* InstagramLoginable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326FFF881FD7495C00C1B3D6 /* InstagramLoginable.swift */; };
+		326FFF941FD7495C00C1B3D6 /* InstagramCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326FFF891FD7495C00C1B3D6 /* InstagramCollectionViewController.swift */; };
+		326FFF951FD7495C00C1B3D6 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326FFF8A1FD7495C00C1B3D6 /* SignInViewController.swift */; };
+		326FFF961FD7495C00C1B3D6 /* TwitterAvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326FFF8B1FD7495C00C1B3D6 /* TwitterAvatarView.swift */; };
+		AB056ADD0B63CFB2016F1EC6 /* Pods_Periquito.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4800B82126A3F8A13764D56E /* Pods_Periquito.framework */; };
+		CC64E43B1EC032E85199B5E6 /* Pods_PeriquitoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B029B4AC3CAA4155443750EB /* Pods_PeriquitoUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		324C80201FD74F3300B9A7AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 326FFF431FD7493F00C1B3D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 326FFF4A1FD7493F00C1B3D6;
+			remoteInfo = Periquito;
+		};
 		326FFF631FD7493F00C1B3D6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 326FFF431FD7493F00C1B3D6 /* Project object */;
@@ -35,27 +53,54 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		039DEF0323C3BBC4E1264D0A /* Pods_PeriquitoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PeriquitoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3236EB621FD74A890084CBF1 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		3236EB641FD74A910084CBF1 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		324C80151FD74C1100B9A7AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		324C801B1FD74F3300B9A7AF /* PeriquitoSnapshots.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeriquitoSnapshots.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		324C801D1FD74F3300B9A7AF /* PeriquitoSnapshots.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriquitoSnapshots.swift; sourceTree = "<group>"; };
+		324C801F1FD74F3300B9A7AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		324C80251FD74F4D00B9A7AF /* SnapshotHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SnapshotHelper.swift; path = fastlane/SnapshotHelper.swift; sourceTree = SOURCE_ROOT; };
+		325765471FDF244A00C9ADEF /* TwitterLoginViewContoller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterLoginViewContoller.swift; sourceTree = "<group>"; };
 		326FFF4B1FD7493F00C1B3D6 /* Periquito.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Periquito.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		326FFF4E1FD7493F00C1B3D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		326FFF501FD7493F00C1B3D6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		326FFF531FD7493F00C1B3D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		326FFF561FD7493F00C1B3D6 /* Periquito.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Periquito.xcdatamodel; sourceTree = "<group>"; };
-		326FFF581FD7493F00C1B3D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		326FFF5B1FD7493F00C1B3D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		326FFF5D1FD7493F00C1B3D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		326FFF621FD7493F00C1B3D6 /* PeriquitoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeriquitoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		326FFF661FD7493F00C1B3D6 /* PeriquitoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriquitoTests.swift; sourceTree = "<group>"; };
 		326FFF681FD7493F00C1B3D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		326FFF6D1FD7493F00C1B3D6 /* PeriquitoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeriquitoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		326FFF711FD7493F00C1B3D6 /* PeriquitoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriquitoUITests.swift; sourceTree = "<group>"; };
 		326FFF731FD7493F00C1B3D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		326FFF7F1FD7495B00C1B3D6 /* Periquito-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Periquito-Bridging-Header.h"; sourceTree = "<group>"; };
+		326FFF801FD7495B00C1B3D6 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../../Carrier/Carrier/AppDelegate.swift; sourceTree = "<group>"; };
+		326FFF821FD7495B00C1B3D6 /* InstagramAvatarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InstagramAvatarView.swift; path = ../../Carrier/Carrier/InstagramAvatarView.swift; sourceTree = "<group>"; };
+		326FFF831FD7495B00C1B3D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../Carrier/Carrier/Assets.xcassets; sourceTree = "<group>"; };
+		326FFF841FD7495B00C1B3D6 /* InstagramCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InstagramCollectionViewCell.swift; path = ../../Carrier/Carrier/InstagramCollectionViewCell.swift; sourceTree = "<group>"; };
+		326FFF881FD7495C00C1B3D6 /* InstagramLoginable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InstagramLoginable.swift; path = ../../Carrier/Carrier/InstagramLoginable.swift; sourceTree = "<group>"; };
+		326FFF891FD7495C00C1B3D6 /* InstagramCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InstagramCollectionViewController.swift; path = ../../Carrier/Carrier/InstagramCollectionViewController.swift; sourceTree = "<group>"; };
+		326FFF8A1FD7495C00C1B3D6 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignInViewController.swift; path = ../../Carrier/Carrier/SignInViewController.swift; sourceTree = "<group>"; };
+		326FFF8B1FD7495C00C1B3D6 /* TwitterAvatarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TwitterAvatarView.swift; path = ../../Carrier/Carrier/TwitterAvatarView.swift; sourceTree = "<group>"; };
+		443AF4620D02F4648369BBB8 /* Pods-Periquito.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Periquito.release.xcconfig"; path = "Pods/Target Support Files/Pods-Periquito/Pods-Periquito.release.xcconfig"; sourceTree = "<group>"; };
+		4800B82126A3F8A13764D56E /* Pods_Periquito.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Periquito.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A8CAF02126A7213DC6FD4FD /* Pods-PeriquitoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PeriquitoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PeriquitoTests/Pods-PeriquitoTests.release.xcconfig"; sourceTree = "<group>"; };
+		6ACE5720571F4FDDCA9BB394 /* Pods-Periquito.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Periquito.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Periquito/Pods-Periquito.debug.xcconfig"; sourceTree = "<group>"; };
+		6F2993707EE1C5303452D1C6 /* Pods-PeriquitoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PeriquitoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PeriquitoUITests/Pods-PeriquitoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9D459788D6B47C94023C1228 /* Pods-PeriquitoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PeriquitoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PeriquitoUITests/Pods-PeriquitoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B029B4AC3CAA4155443750EB /* Pods_PeriquitoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PeriquitoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF05F73361F4B95DCB3C6E43 /* Pods-PeriquitoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PeriquitoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PeriquitoTests/Pods-PeriquitoTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		324C80181FD74F3300B9A7AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		326FFF481FD7493F00C1B3D6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB056ADD0B63CFB2016F1EC6 /* Pods_Periquito.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FA69CC1C905571E09D4A026 /* Pods_PeriquitoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,19 +116,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC64E43B1EC032E85199B5E6 /* Pods_PeriquitoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		324C801C1FD74F3300B9A7AF /* PeriquitoSnapshots */ = {
+			isa = PBXGroup;
+			children = (
+				324C80251FD74F4D00B9A7AF /* SnapshotHelper.swift */,
+				324C801D1FD74F3300B9A7AF /* PeriquitoSnapshots.swift */,
+				324C801F1FD74F3300B9A7AF /* Info.plist */,
+			);
+			path = PeriquitoSnapshots;
+			sourceTree = "<group>";
+		};
 		326FFF421FD7493F00C1B3D6 = {
 			isa = PBXGroup;
 			children = (
 				326FFF4D1FD7493F00C1B3D6 /* Periquito */,
 				326FFF651FD7493F00C1B3D6 /* PeriquitoTests */,
 				326FFF701FD7493F00C1B3D6 /* PeriquitoUITests */,
+				324C801C1FD74F3300B9A7AF /* PeriquitoSnapshots */,
 				326FFF4C1FD7493F00C1B3D6 /* Products */,
+				3CAD517FA40DD1AB76E10E22 /* Pods */,
+				90DE79875880F7A2B19EAE35 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -92,6 +152,7 @@
 				326FFF4B1FD7493F00C1B3D6 /* Periquito.app */,
 				326FFF621FD7493F00C1B3D6 /* PeriquitoTests.xctest */,
 				326FFF6D1FD7493F00C1B3D6 /* PeriquitoUITests.xctest */,
+				324C801B1FD74F3300B9A7AF /* PeriquitoSnapshots.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,13 +160,19 @@
 		326FFF4D1FD7493F00C1B3D6 /* Periquito */ = {
 			isa = PBXGroup;
 			children = (
-				326FFF4E1FD7493F00C1B3D6 /* AppDelegate.swift */,
-				326FFF501FD7493F00C1B3D6 /* ViewController.swift */,
-				326FFF521FD7493F00C1B3D6 /* Main.storyboard */,
-				326FFF581FD7493F00C1B3D6 /* Assets.xcassets */,
-				326FFF5A1FD7493F00C1B3D6 /* LaunchScreen.storyboard */,
-				326FFF5D1FD7493F00C1B3D6 /* Info.plist */,
-				326FFF551FD7493F00C1B3D6 /* Periquito.xcdatamodeld */,
+				3236EB641FD74A910084CBF1 /* LaunchScreen.storyboard */,
+				3236EB621FD74A890084CBF1 /* Main.storyboard */,
+				326FFF801FD7495B00C1B3D6 /* AppDelegate.swift */,
+				326FFF831FD7495B00C1B3D6 /* Assets.xcassets */,
+				326FFF821FD7495B00C1B3D6 /* InstagramAvatarView.swift */,
+				326FFF841FD7495B00C1B3D6 /* InstagramCollectionViewCell.swift */,
+				326FFF891FD7495C00C1B3D6 /* InstagramCollectionViewController.swift */,
+				326FFF881FD7495C00C1B3D6 /* InstagramLoginable.swift */,
+				326FFF8A1FD7495C00C1B3D6 /* SignInViewController.swift */,
+				326FFF8B1FD7495C00C1B3D6 /* TwitterAvatarView.swift */,
+				326FFF7F1FD7495B00C1B3D6 /* Periquito-Bridging-Header.h */,
+				324C80151FD74C1100B9A7AF /* Info.plist */,
+				325765471FDF244A00C9ADEF /* TwitterLoginViewContoller.swift */,
 			);
 			path = Periquito;
 			sourceTree = "<group>";
@@ -128,16 +195,61 @@
 			path = PeriquitoUITests;
 			sourceTree = "<group>";
 		};
+		3CAD517FA40DD1AB76E10E22 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6ACE5720571F4FDDCA9BB394 /* Pods-Periquito.debug.xcconfig */,
+				443AF4620D02F4648369BBB8 /* Pods-Periquito.release.xcconfig */,
+				BF05F73361F4B95DCB3C6E43 /* Pods-PeriquitoTests.debug.xcconfig */,
+				5A8CAF02126A7213DC6FD4FD /* Pods-PeriquitoTests.release.xcconfig */,
+				6F2993707EE1C5303452D1C6 /* Pods-PeriquitoUITests.debug.xcconfig */,
+				9D459788D6B47C94023C1228 /* Pods-PeriquitoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		90DE79875880F7A2B19EAE35 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4800B82126A3F8A13764D56E /* Pods_Periquito.framework */,
+				039DEF0323C3BBC4E1264D0A /* Pods_PeriquitoTests.framework */,
+				B029B4AC3CAA4155443750EB /* Pods_PeriquitoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		324C801A1FD74F3300B9A7AF /* PeriquitoSnapshots */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 324C80221FD74F3300B9A7AF /* Build configuration list for PBXNativeTarget "PeriquitoSnapshots" */;
+			buildPhases = (
+				324C80171FD74F3300B9A7AF /* Sources */,
+				324C80181FD74F3300B9A7AF /* Frameworks */,
+				324C80191FD74F3300B9A7AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				324C80211FD74F3300B9A7AF /* PBXTargetDependency */,
+			);
+			name = PeriquitoSnapshots;
+			productName = PeriquitoSnapshots;
+			productReference = 324C801B1FD74F3300B9A7AF /* PeriquitoSnapshots.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		326FFF4A1FD7493F00C1B3D6 /* Periquito */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 326FFF761FD7493F00C1B3D6 /* Build configuration list for PBXNativeTarget "Periquito" */;
 			buildPhases = (
+				E59D6CA5C122869F98EB9DDD /* [CP] Check Pods Manifest.lock */,
 				326FFF471FD7493F00C1B3D6 /* Sources */,
 				326FFF481FD7493F00C1B3D6 /* Frameworks */,
 				326FFF491FD7493F00C1B3D6 /* Resources */,
+				513E58D9360A6BAC952AAF1D /* [CP] Embed Pods Frameworks */,
+				0DA578C4940B8981B044326D /* [CP] Copy Pods Resources */,
+				3252A5701FD75BD30059DBB7 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -152,9 +264,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 326FFF791FD7493F00C1B3D6 /* Build configuration list for PBXNativeTarget "PeriquitoTests" */;
 			buildPhases = (
+				681345A2BD657197BDAE3CEE /* [CP] Check Pods Manifest.lock */,
 				326FFF5E1FD7493F00C1B3D6 /* Sources */,
 				326FFF5F1FD7493F00C1B3D6 /* Frameworks */,
 				326FFF601FD7493F00C1B3D6 /* Resources */,
+				E7B8BE2A00918600B64692B5 /* [CP] Embed Pods Frameworks */,
+				03809DF09BBDF4AB81BEE14A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +285,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 326FFF7C1FD7493F00C1B3D6 /* Build configuration list for PBXNativeTarget "PeriquitoUITests" */;
 			buildPhases = (
+				AE19BEE64FF55299408B3645 /* [CP] Check Pods Manifest.lock */,
 				326FFF691FD7493F00C1B3D6 /* Sources */,
 				326FFF6A1FD7493F00C1B3D6 /* Frameworks */,
 				326FFF6B1FD7493F00C1B3D6 /* Resources */,
+				1FA4815C25F3C9A48DC39292 /* [CP] Embed Pods Frameworks */,
+				A125B61D7BBABBE03E81C57E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -194,8 +312,14 @@
 				LastUpgradeCheck = 0910;
 				ORGANIZATIONNAME = "Sam Bauch";
 				TargetAttributes = {
+					324C801A1FD74F3300B9A7AF = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 326FFF4A1FD7493F00C1B3D6;
+					};
 					326FFF4A1FD7493F00C1B3D6 = {
 						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 0910;
 						ProvisioningStyle = Automatic;
 					};
 					326FFF611FD7493F00C1B3D6 = {
@@ -226,18 +350,27 @@
 				326FFF4A1FD7493F00C1B3D6 /* Periquito */,
 				326FFF611FD7493F00C1B3D6 /* PeriquitoTests */,
 				326FFF6C1FD7493F00C1B3D6 /* PeriquitoUITests */,
+				324C801A1FD74F3300B9A7AF /* PeriquitoSnapshots */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		324C80191FD74F3300B9A7AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		326FFF491FD7493F00C1B3D6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				326FFF5C1FD7493F00C1B3D6 /* LaunchScreen.storyboard in Resources */,
-				326FFF591FD7493F00C1B3D6 /* Assets.xcassets in Resources */,
-				326FFF541FD7493F00C1B3D6 /* Main.storyboard in Resources */,
+				326FFF8F1FD7495C00C1B3D6 /* Assets.xcassets in Resources */,
+				324C80161FD74C1100B9A7AF /* Info.plist in Resources */,
+				3236EB651FD74A910084CBF1 /* LaunchScreen.storyboard in Resources */,
+				3236EB631FD74A890084CBF1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,14 +390,203 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		03809DF09BBDF4AB81BEE14A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PeriquitoTests/Pods-PeriquitoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0DA578C4940B8981B044326D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Periquito/Pods-Periquito-resources.sh",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterKitResources.bundle",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterShareExtensionUIResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Periquito/Pods-Periquito-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1FA4815C25F3C9A48DC39292 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PeriquitoUITests/Pods-PeriquitoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3252A5701FD75BD30059DBB7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" 145b37c8894fa9d78284ab74e62550ea7deb090d 515127ef5ed144102e4b6bea9566044fc155fcc19de3740a89a2659012db693e";
+		};
+		513E58D9360A6BAC952AAF1D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Periquito/Pods-Periquito-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/InstagramKit/InstagramKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/Pastel/Pastel.framework",
+				"${BUILT_PRODUCTS_DIR}/UICKeyChainStore/UICKeyChainStore.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/InstagramKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Pastel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UICKeyChainStore.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Periquito/Pods-Periquito-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		681345A2BD657197BDAE3CEE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PeriquitoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A125B61D7BBABBE03E81C57E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PeriquitoUITests/Pods-PeriquitoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE19BEE64FF55299408B3645 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PeriquitoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E59D6CA5C122869F98EB9DDD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Periquito-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7B8BE2A00918600B64692B5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PeriquitoTests/Pods-PeriquitoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		324C80171FD74F3300B9A7AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				324C801E1FD74F3300B9A7AF /* PeriquitoSnapshots.swift in Sources */,
+				324C80261FD74F4D00B9A7AF /* SnapshotHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		326FFF471FD7493F00C1B3D6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				326FFF571FD7493F00C1B3D6 /* Periquito.xcdatamodeld in Sources */,
-				326FFF511FD7493F00C1B3D6 /* ViewController.swift in Sources */,
-				326FFF4F1FD7493F00C1B3D6 /* AppDelegate.swift in Sources */,
+				326FFF951FD7495C00C1B3D6 /* SignInViewController.swift in Sources */,
+				326FFF901FD7495C00C1B3D6 /* InstagramCollectionViewCell.swift in Sources */,
+				326FFF8E1FD7495C00C1B3D6 /* InstagramAvatarView.swift in Sources */,
+				325765481FDF244A00C9ADEF /* TwitterLoginViewContoller.swift in Sources */,
+				326FFF941FD7495C00C1B3D6 /* InstagramCollectionViewController.swift in Sources */,
+				326FFF931FD7495C00C1B3D6 /* InstagramLoginable.swift in Sources */,
+				326FFF8D1FD7495C00C1B3D6 /* AppDelegate.swift in Sources */,
+				326FFF961FD7495C00C1B3D6 /* TwitterAvatarView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +609,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		324C80211FD74F3300B9A7AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 326FFF4A1FD7493F00C1B3D6 /* Periquito */;
+			targetProxy = 324C80201FD74F3300B9A7AF /* PBXContainerItemProxy */;
+		};
 		326FFF641FD7493F00C1B3D6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 326FFF4A1FD7493F00C1B3D6 /* Periquito */;
@@ -299,26 +626,37 @@
 		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		326FFF521FD7493F00C1B3D6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				326FFF531FD7493F00C1B3D6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		326FFF5A1FD7493F00C1B3D6 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				326FFF5B1FD7493F00C1B3D6 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
+		324C80231FD74F3300B9A7AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VW52EE7G45;
+				INFOPLIST_FILE = PeriquitoSnapshots/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sambauch.PeriquitoSnapshots;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Periquito;
+			};
+			name = Debug;
+		};
+		324C80241FD74F3300B9A7AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VW52EE7G45;
+				INFOPLIST_FILE = PeriquitoSnapshots/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sambauch.PeriquitoSnapshots;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Periquito;
+			};
+			name = Release;
+		};
 		326FFF741FD7493F00C1B3D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -428,14 +766,19 @@
 		};
 		326FFF771FD7493F00C1B3D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6ACE5720571F4FDDCA9BB394 /* Pods-Periquito.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VW52EE7G45;
 				INFOPLIST_FILE = Periquito/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.sambauch.Periquito;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sambauch.periquito;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Periquito/Periquito-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -443,14 +786,18 @@
 		};
 		326FFF781FD7493F00C1B3D6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 443AF4620D02F4648369BBB8 /* Pods-Periquito.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VW52EE7G45;
 				INFOPLIST_FILE = Periquito/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.sambauch.Periquito;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sambauch.periquito;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Periquito/Periquito-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -458,6 +805,7 @@
 		};
 		326FFF7A1FD7493F00C1B3D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF05F73361F4B95DCB3C6E43 /* Pods-PeriquitoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -475,6 +823,7 @@
 		};
 		326FFF7B1FD7493F00C1B3D6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A8CAF02126A7213DC6FD4FD /* Pods-PeriquitoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -492,6 +841,7 @@
 		};
 		326FFF7D1FD7493F00C1B3D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F2993707EE1C5303452D1C6 /* Pods-PeriquitoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -508,6 +858,7 @@
 		};
 		326FFF7E1FD7493F00C1B3D6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D459788D6B47C94023C1228 /* Pods-PeriquitoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -525,6 +876,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		324C80221FD74F3300B9A7AF /* Build configuration list for PBXNativeTarget "PeriquitoSnapshots" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				324C80231FD74F3300B9A7AF /* Debug */,
+				324C80241FD74F3300B9A7AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		326FFF461FD7493F00C1B3D6 /* Build configuration list for PBXProject "Periquito" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -562,19 +922,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		326FFF551FD7493F00C1B3D6 /* Periquito.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				326FFF561FD7493F00C1B3D6 /* Periquito.xcdatamodel */,
-			);
-			currentVersion = 326FFF561FD7493F00C1B3D6 /* Periquito.xcdatamodel */;
-			path = Periquito.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 326FFF431FD7493F00C1B3D6 /* Project object */;
 }

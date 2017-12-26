@@ -1,0 +1,58 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - Crashlytics (3.8.6):
+    - Fabric (~> 1.6.3)
+  - Fabric (1.6.13)
+  - InstagramKit (3.8):
+    - AFNetworking (~> 3.0)
+    - InstagramKit/Exclude-UICKeyChainStore (= 3.8)
+  - InstagramKit/Exclude-UICKeyChainStore (3.8):
+    - AFNetworking (~> 3.0)
+  - InstagramKit/UICKeyChainStore (3.8):
+    - AFNetworking (~> 3.0)
+    - UICKeyChainStore (~> 2.0)
+  - Kingfisher (4.2.0)
+  - Pastel (0.3.0)
+  - TwitterCore (3.0.2)
+  - TwitterKit (3.2.1):
+    - TwitterCore (>= 3.0.2)
+  - UICKeyChainStore (2.1.1)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.1.0)
+  - Crashlytics
+  - Fabric
+  - InstagramKit (~> 3.0)
+  - InstagramKit/UICKeyChainStore
+  - Kingfisher (~> 4.0)
+  - Pastel
+  - TwitterKit
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  Crashlytics: 95d05f4e4c19a771250c4bd9ce344d996de32bbf
+  Fabric: 2fb5676bc811af011a04513451f463dac6803206
+  InstagramKit: 402d6bba375357b548039de08eea19a1b8716354
+  Kingfisher: 9ee7e788d8ba07c3f21ce0d43f33cec310a4f781
+  Pastel: 738740c84f2b15bbcd96ebe99c4e6c2f5dd42262
+  TwitterCore: e0420b01e02e7d20e94690e37f43e75de219ab8d
+  TwitterKit: 205ac89824bbfe9e85a16c420d30bb7bcbedac45
+  UICKeyChainStore: 239558492fa260531a0774cfc611ea83a6eaff3a
+
+PODFILE CHECKSUM: e682ef6df8b125c125954622d726f72d7db54f08
+
+COCOAPODS: 1.3.0

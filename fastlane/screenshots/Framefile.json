@@ -1,0 +1,44 @@
+{
+  "default": {
+    "title": {
+      "fonts": [
+        {
+          "font": "./fonts/SF-UI-Display-Ultralight.otf",
+          "supported": ["en-US"]
+        }
+      ],
+      "color": "#551a8b"
+    },
+    "keyword": {
+      "fonts": [
+        {
+          "font": "./fonts/SF-UI-Display-Ultralight.otf",
+          "supported": ["en-US"]
+        }
+      ]
+    },
+    "background": "./background.jpg",
+    "padding": 100,
+    "show_complete_frame": false,
+    "stack_title" : true,
+    "title_below_image": false
+  },
+
+
+  "data": [
+    {
+      "filter": "01",
+      "title": {
+        "text": "Choose any of your Instagram photos or videos",
+        "color": "#f36e57"
+      }
+    },
+    {
+      "filter": "02",
+      "title": {
+        "text": "Tweet your image or video with a link to Instagram",
+        "color": "#5da9dd"
+      }
+    }
+  ]
+}

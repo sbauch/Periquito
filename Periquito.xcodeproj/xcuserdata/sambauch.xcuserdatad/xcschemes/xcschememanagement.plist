@@ -3,11 +3,28 @@
 <plist version="1.0">
 <dict>
 	<key>SchemeUserState</key>
+	<dict/>
+	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>Periquito.xcscheme</key>
+		<key>324C801A1FD74F3300B9A7AF</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>0</integer>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>326FFF4A1FD7493F00C1B3D6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>326FFF611FD7493F00C1B3D6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>326FFF6C1FD7493F00C1B3D6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

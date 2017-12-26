@@ -1,0 +1,6 @@
+framework module Pods_PeriquitoTests {
+  umbrella header "Pods-PeriquitoTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
